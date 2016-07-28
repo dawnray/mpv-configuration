@@ -1,2 +1,3 @@
 # mpv-configuration
-Put the files into ~/.config/mpv/
+## How to use
+Put the files into \~/.config/mpv/
