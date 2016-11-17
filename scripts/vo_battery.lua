@@ -9,5 +9,5 @@ t = {}
 t.args = {"/usr/bin/pmset", "-g", "ac"}
 res = utils.subprocess(t)
 if res.stdout ~= "No adapter attached.\n" then
-    mp.set_property("options/vo", hqvo)
+    mp.set_property("options/profile", hqvo)
 end
